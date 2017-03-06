@@ -8,7 +8,7 @@
             # find x when y at perspective limit - point 1 = (x, 390)
             x_middle = int((350 - intercept)/gradient)
 
-## Found was getting some lines with zero gradient (vertical) hence 
+## Found was getting some lines with zero gradient (horizontal) hence the following (this probably due to other settings?) 
 if gradient == 0:
      continue
      
